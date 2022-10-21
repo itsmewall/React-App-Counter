@@ -11,10 +11,12 @@ const pages = {
     text: 'Álbuns',
     component: Albums,
   },
+
   counter: {
     text: 'Contador',
     component: Counter,
   },
+  
   users: {
     text: 'Usuários',
     component: Users,
