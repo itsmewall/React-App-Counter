@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Loading from './Loading'
+import Loading from '../components/Loading'
 
 const Albums = () => {
     const [isLoading, setIsLoading] = useState(false)
@@ -22,8 +22,8 @@ const Albums = () => {
             {
                 albums.map(album => {
                     return (
-                        <div>
-                            <span>{album.title} - id: {album.id}</span>
+                        <div style={{margin: '10px'}}>
+                            <b>{album.title}</b> <span>- id: {album.id}</span>
                         </div>
                     )
                 })

@@ -1,6 +1,6 @@
 import React from 'react'
-import Nav from './Nav'
-import Header from './Header'
+import Nav from '../partials/Nav'
+import Header from '../partials/Header'
 
 const Template = ({ children, pages, activePage, onChangePage }) => {
     const title = pages[activePage].text
